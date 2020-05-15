@@ -1,8 +1,8 @@
 {
   "name": "TSwiftCore",
-  "version": "0.1.0",
-  "summary": "A short description of TSwiftCore.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "TSwiftCore lib",
+  "description": "Swift lib",
   "homepage": "https://github.com/tlqgitHub/TSwiftCore",
   "license": {
     "type": "MIT",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/tlqgitHub/TSwiftCore.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "TSwiftCore/Classes/**/*"
 }

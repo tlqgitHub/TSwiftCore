@@ -44,7 +44,7 @@
 		82D2A193F73AE379E1648FD3 /* Pods_TSwiftCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSwiftCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FB00258F90895E8BB8C660 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A64DBFCCF0E5307746BB51CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		ACBFD44CE03BF9A37C4170E2 /* TSwiftCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TSwiftCore.podspec; path = ../TSwiftCore.podspec; sourceTree = "<group>"; };
+		ACBFD44CE03BF9A37C4170E2 /* TSwiftCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TSwiftCore.podspec; path = ../TSwiftCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B9052E8536545BEB3C4BF3A8 /* Pods_TSwiftCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSwiftCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9A93794E1D5413BDB734BE /* Pods-TSwiftCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSwiftCore_Example.release.xcconfig"; path = "Target Support Files/Pods-TSwiftCore_Example/Pods-TSwiftCore_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */

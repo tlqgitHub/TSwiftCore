@@ -1,5 +1,5 @@
 PODS:
-  - TSwiftCore (0.1.0)
+  - TSwiftCore (0.1.1)
 
 DEPENDENCIES:
   - TSwiftCore (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TSwiftCore: 02bcf1673d6382671fa2aed1c56effe175076e28
+  TSwiftCore: 967529aa47f959c0c845d764f862bcb53ace9494
 
-PODFILE CHECKSUM: d6b776186d9d62609572b59000b7c2e5f2fa9ec4
+PODFILE CHECKSUM: bb68833d3e1b03406c07e75aaf3a032c87e62172
 
 COCOAPODS: 1.9.1
