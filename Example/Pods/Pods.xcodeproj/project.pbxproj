@@ -10,6 +10,7 @@
 		16ADEDA1FB031E5F08A739607A8A1661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5132735C246EC8DD00EBDBBF /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 51327359246EC8DD00EBDBBF /* .gitkeep */; };
 		5132735D246EC8DD00EBDBBF /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 5132735B246EC8DD00EBDBBF /* .gitkeep */; };
+		5132735F246ECB4000EBDBBF /* TSwiftCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5132735E246ECB4000EBDBBF /* TSwiftCore.swift */; };
 		53B45CB34722FE08A0DF19CEDE828B8C /* Pods-TSwiftCore_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3DB3AC098B3FC9393A409A19E0AAD81 /* Pods-TSwiftCore_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DA565F11A00E289CB2C3A67FCD0ACF3 /* TSwiftCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E21AA422C7CB2BC216CE6A3E172F9661 /* TSwiftCore-dummy.m */; };
 		80996627F0DA5A50B4091437B113FB0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -52,6 +53,7 @@
 		4FB6B08391970625C883EA9D52CAC800 /* Pods-TSwiftCore_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSwiftCore_Example-dummy.m"; sourceTree = "<group>"; };
 		51327359246EC8DD00EBDBBF /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		5132735B246EC8DD00EBDBBF /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		5132735E246ECB4000EBDBBF /* TSwiftCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSwiftCore.swift; sourceTree = "<group>"; };
 		52D004406961A534B5F00D499ADF7DE3 /* Pods-TSwiftCore_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSwiftCore_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		55F7513E6E32D25B1CBE46EEF212A550 /* Pods_TSwiftCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSwiftCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C42AB7CF3CB53F09A2BA316574119CB /* Pods-TSwiftCore_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TSwiftCore_Example.modulemap"; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				51327359246EC8DD00EBDBBF /* .gitkeep */,
+				5132735E246ECB4000EBDBBF /* TSwiftCore.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -344,6 +347,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					E301252E114E8309F5CC11585E293D19 = {
+						LastSwiftMigration = 1140;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -405,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E34FD7D4EC1BE79B934F829203DCD331 /* Pods-TSwiftCore_Example-dummy.m in Sources */,
+				5132735F246ECB4000EBDBBF /* TSwiftCore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +479,7 @@
 			baseConfigurationReference = 8D565868F611D002BBE63AACDE37E5CF /* Pods-TSwiftCore_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -492,6 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -603,6 +614,7 @@
 			baseConfigurationReference = A4675CBA97B842BC1ED2E7EABB5FB835 /* Pods-TSwiftCore_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -625,6 +637,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
