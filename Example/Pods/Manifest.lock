@@ -1,0 +1,16 @@
+PODS:
+  - TSwiftCore (0.1.0)
+
+DEPENDENCIES:
+  - TSwiftCore (from `../`)
+
+EXTERNAL SOURCES:
+  TSwiftCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TSwiftCore: 02bcf1673d6382671fa2aed1c56effe175076e28
+
+PODFILE CHECKSUM: d6b776186d9d62609572b59000b7c2e5f2fa9ec4
+
+COCOAPODS: 1.9.1
