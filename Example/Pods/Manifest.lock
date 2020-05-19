@@ -1,15 +1,79 @@
 PODS:
-  - TSwiftCore (0.1.1)
+  - Alamofire (4.9.1)
+  - CryptoSwift (0.8.3)
+  - Kingfisher (4.10.1)
+  - MBProgressHUD (1.1.0)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Moya/RxSwift (13.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - NVActivityIndicatorView (4.3.0):
+    - NVActivityIndicatorView/Presenter (= 4.3.0)
+  - NVActivityIndicatorView/Presenter (4.3.0)
+  - Result (4.1.0)
+  - RxCocoa (4.4.2):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - SnapKit (4.2.0)
+  - SwiftyUserDefaults (3.0.1)
+  - Toast-Swift (3.0.1)
+  - TSwiftCore (0.1.3):
+    - CryptoSwift (~> 0.8.3)
+    - Kingfisher
+    - MBProgressHUD (~> 1.1.0)
+    - Moya/RxSwift (~> 13.0.0)
+    - NVActivityIndicatorView (~> 4.3.0)
+    - RxCocoa (~> 4.4.0)
+    - SnapKit (~> 4.2.0)
+    - SwiftyUserDefaults (~> 3.0.1)
+    - Toast-Swift (~> 3.0.1)
+    - URLNavigator (~> 2.0.4)
+    - WebViewJavascriptBridge (~> 6.0.3)
+  - URLNavigator (2.0.6)
+  - WebViewJavascriptBridge (6.0.3)
 
 DEPENDENCIES:
   - TSwiftCore (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - CryptoSwift
+    - Kingfisher
+    - MBProgressHUD
+    - Moya
+    - NVActivityIndicatorView
+    - Result
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - SwiftyUserDefaults
+    - Toast-Swift
+    - URLNavigator
+    - WebViewJavascriptBridge
 
 EXTERNAL SOURCES:
   TSwiftCore:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TSwiftCore: 967529aa47f959c0c845d764f862bcb53ace9494
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CryptoSwift: 033efc3523865d19cc6ab6612fa17a62613b5dfa
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+  TSwiftCore: 2402872b6cfc251759a4f7b8b679adc250b9e163
+  URLNavigator: 2357a32f3b3787b748bf87deb927761f8b0f7f53
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
 
 PODFILE CHECKSUM: bb68833d3e1b03406c07e75aaf3a032c87e62172
 

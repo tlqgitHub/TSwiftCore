@@ -15,9 +15,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        print(A.self)
+//        print(A.self)
         
-        UINavigationController
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

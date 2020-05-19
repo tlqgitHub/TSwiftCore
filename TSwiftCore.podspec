@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TSwiftCore'
-  s.version          = '0.1.3'
+  s.version          = '4.2.1'
   s.summary          = 'TSwiftCore lib'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,8 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.swift_version = '4.2'
+  
   s.source_files = 'TSwiftCore/Classes/**/*'
   
   # s.resource_bundles = {
@@ -39,4 +40,30 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.frameworks = 'UIKit'
+  
+#  s.dependency 'RxSwift', '~> 4.4.0'
+  s.dependency 'RxCocoa', '~> 4.4.0'
+  s.dependency 'SwiftyUserDefaults', '~> 3.0.1'
+#动画显示
+  s.dependency 'NVActivityIndicatorView', '~> 4.3.0'
+  #toast提示框
+  s.dependency 'Toast-Swift', '~> 3.0.1'
+  s.dependency 'Kingfisher'
+  s.dependency 'SnapKit', '~> 4.2.0'
+  s.dependency 'MBProgressHUD', '~> 1.1.0'
+  s.dependency 'URLNavigator', '~> 2.0.4'
+  s.dependency 'CryptoSwift', '~> 0.8.3'
+  s.dependency 'WebViewJavascriptBridge', '~> 6.0.3'
+#  s.dependency 'NetWorkCore', '~> 0.1.1'
+#  s.dependency 'ModelProtocol', '~> 0.1.0'
+#  s.dependency 'RxSwift', '~> 4.4.0'  #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
+#  s.dependency 'RxCocoa', '~> 4.4.0'
+#  s.dependency 'Alamofire', '~> 4.7.3'
+#  s.dependency 'Result', '~> 4.0.0'
+  
+  s.dependency 'Moya/RxSwift', '~> 13.0.0'
+#  s.dependency 'Moya/RxSwift', '~> 14.0'
+  
 end
